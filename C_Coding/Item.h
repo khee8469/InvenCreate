@@ -12,22 +12,12 @@ private:
 
 public:
 	//Item() { name = "기본이름", price = 0; }
-	Item(string inputName = "기본이름", int inputPrice = 0) : name(inputName), price(inputPrice) {}
-	~Item() { }
-	virtual void Use() {};
+	Item(string inputName = "기본이름", int inputPrice = 0);
+	~Item();
 
-	string GetName()
-	{
-		return name;
-	}
+	virtual void Use();
 
-	int GetPrice() const
-	{
-		return price;
-	}
-
-	void PrintInfo() const 
-	{
-		cout << "[이름: " << name << ", 가격: " << price << "G]" << endl;
-	}
+	string GetName();
+	int GetPrice() const;
+	void PrintInfo() const;
 };

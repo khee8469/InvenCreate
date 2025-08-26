@@ -4,9 +4,6 @@
 class Potion : public Item
 {
 public:
-	Potion(string inputName , int inputPrice) : Item(inputName, inputPrice) {};
-	void Use() override
-	{
-		cout << "물약 사용\n";
-	}
+	Potion(string inputName , int inputPrice);
+	void Use() override;
 };

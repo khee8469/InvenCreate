@@ -16,10 +16,25 @@
     <Filter Include="헤더 파일\Items">
       <UniqueIdentifier>{8273e268-711b-47d9-b8b1-0488fc609bed}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Items">
+      <UniqueIdentifier>{98a1b8a8-cc67-47c7-ba05-e68ff6c300e2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="InvenCreate.cpp">
       <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>소스 파일\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="Armor.cpp">
+      <Filter>소스 파일\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="Potion.cpp">
+      <Filter>소스 파일\Items</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
